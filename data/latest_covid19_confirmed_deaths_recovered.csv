@@ -1,0 +1,261 @@
+Province/State,Country,Region,Lat,Long,ConfirmedCases,RecoveredCases,Deaths
+,Afghanistan,South Asia,33.93911,67.709953,35727,23924,1190
+,Albania,Europe & Central Asia,41.1533,20.1683,4358,2463,120
+,Algeria,Middle East & North Africa,28.0339,1.6596,24872,16983,1111
+,Andorra,Europe & Central Asia,42.5063,1.5218,889,803,52
+,Angola,Sub-Saharan Africa,-11.2027,17.8739,812,221,33
+,Antigua and Barbuda,Latin America & Caribbean,17.0608,-61.7964,76,58,3
+,Argentina,Latin America & Caribbean,-38.4161,-63.6167,141900,60531,2588
+,Armenia,Europe & Central Asia,40.0691,45.0382,35693,24766,678
+Australian Capital Territory,Australia,East Asia & Pacific,-35.4735,149.0124,113,109,3
+New South Wales,Australia,East Asia & Pacific,-33.8688,151.2093,3633,2988,49
+Northern Territory,Australia,East Asia & Pacific,-12.4634,130.8456,31,30,1
+Queensland,Australia,East Asia & Pacific,-27.4698,153.0251,1074,1063,6
+South Australia,Australia,East Asia & Pacific,-34.9285,138.6007,446,441,4
+Tasmania,Australia,East Asia & Pacific,-42.8821,147.3272,229,215,13
+Victoria,Australia,East Asia & Pacific,-37.8136,144.9631,7125,3298,49
+Western Australia,Australia,East Asia & Pacific,-31.9505,115.8605,651,626,9
+,Austria,Europe & Central Asia,47.5162,14.5501,19929,17849,711
+,Azerbaijan,Europe & Central Asia,40.1431,47.5769,28633,20443,385
+,Bahamas,Latin America & Caribbean,25.025885,-78.035889,219,91,11
+,Bahrain,Middle East & North Africa,26.0275,50.55,37637,33894,130
+,Bangladesh,South Asia,23.685,90.3563,213254,117202,2751
+,Barbados,Latin America & Caribbean,13.1939,-59.5432,106,94,7
+,Belarus,Europe & Central Asia,53.7098,27.9534,66521,59061,513
+,Belgium,Europe & Central Asia,50.8333,4.469936,64627,17347,9808
+,Benin,Sub-Saharan Africa,9.3077,2.3158,1690,782,34
+,Bhutan,South Asia,27.5142,90.4336,92,83,1
+,Bolivia,Latin America & Caribbean,-16.2902,-63.5887,64135,19721,2328
+,Bosnia and Herzegovina,Europe & Central Asia,43.9159,17.6791,9115,4159,268
+,Brazil,Latin America & Caribbean,-14.235,-51.9253,2227514,1591975,82771
+,Brunei,East Asia & Pacific,4.5353,114.7277,141,138,3
+,Bulgaria,Europe & Central Asia,42.7339,25.4858,9584,4643,321
+,Burkina Faso,Sub-Saharan Africa,12.2383,-1.5616,1066,917,53
+,Cabo Verde,Sub-Saharan Africa,16.5388,-23.0418,2154,1132,21
+,Cambodia,East Asia & Pacific,11.55,104.9167,198,142,1
+,Cameroon,Sub-Saharan Africa,3.848,11.5021,16522,13728,382
+Alberta,Canada,North America,53.9333,-116.5765,9728,99501,172
+British Columbia,Canada,North America,53.7267,-127.6476,3328,1,189
+Grand Princess,Canada,North America,0,0,13,1,1
+Manitoba,Canada,North America,53.7609,-98.8139,374,1,7
+New Brunswick,Canada,North America,46.5653,-66.4619,170,1,2
+Newfoundland and Labrador,Canada,North America,53.1355,-57.6604,264,1,3
+Nova Scotia,Canada,North America,44.682,-63.7443,1067,1,63
+Ontario,Canada,North America,51.2538,-85.3232,39824,1,2799
+Prince Edward Island,Canada,North America,46.5107,-63.4168,36,1,1
+Quebec,Canada,North America,52.9399,-73.5491,57938,1,5662
+Saskatchewan,Canada,North America,52.9399,-106.4509,1030,1,5662
+,Central African Republic,Sub-Saharan Africa,6.6111,20.9394,4574,1437,57
+,Chad,Sub-Saharan Africa,15.4542,18.7322,889,805,75
+,Chile,Latin America & Caribbean,-35.6751,-71.543,334683,306816,8677
+Anhui,China,East Asia & Pacific,31.8257,117.2264,991,985,6
+Beijing,China,East Asia & Pacific,40.1824,116.4142,929,841,9
+Chongqing,China,East Asia & Pacific,30.0572,107.874,583,576,6
+Fujian,China,East Asia & Pacific,26.0789,117.9874,364,361,1
+Gansu,China,East Asia & Pacific,35.7518,104.2861,167,165,2
+Guangdong,China,East Asia & Pacific,23.3417,113.4244,1662,1637,8
+Guangxi,China,East Asia & Pacific,23.8298,108.7881,255,253,2
+Guizhou,China,East Asia & Pacific,26.8154,106.8748,147,145,2
+Hainan,China,East Asia & Pacific,19.1959,109.7453,171,165,6
+Hebei,China,East Asia & Pacific,39.549,116.1306,349,1,6
+Heilongjiang,China,East Asia & Pacific,47.862,127.7615,947,934,13
+Henan,China,East Asia & Pacific,37.8957,114.9042,1276,342,22
+Hong Kong,China,East Asia & Pacific,22.3,114.2,2131,1344,14
+Hubei,China,East Asia & Pacific,30.9756,112.2707,68135,63623,4512
+Hunan,China,East Asia & Pacific,27.6104,111.7088,1019,1015,4
+Inner Mongolia,China,East Asia & Pacific,44.0935,113.9448,250,241,1
+Jiangsu,China,East Asia & Pacific,32.9711,119.455,655,654,1
+Jiangxi,China,East Asia & Pacific,27.614,115.7221,932,931,1
+Jilin,China,East Asia & Pacific,43.6661,126.1923,155,153,2
+Liaoning,China,East Asia & Pacific,41.2956,122.6085,165,158,2
+Macau,China,East Asia & Pacific,22.1667,113.55,46,46,1
+Ningxia,China,East Asia & Pacific,37.2692,106.1655,75,75,1
+Qinghai,China,East Asia & Pacific,35.7452,95.9956,18,18,1
+Shaanxi,China,East Asia & Pacific,35.1917,108.8701,323,317,3
+Shandong,China,East Asia & Pacific,36.3427,118.1498,798,785,7
+Shanghai,China,East Asia & Pacific,31.202,121.4491,738,711,7
+Shanxi,China,East Asia & Pacific,37.5777,112.2922,201,200,1
+Sichuan,China,East Asia & Pacific,30.6171,102.7103,603,594,3
+Tianjin,China,East Asia & Pacific,39.3054,117.323,203,195,3
+Tibet,China,East Asia & Pacific,31.6927,88.0924,1,1,1
+Xinjiang,China,East Asia & Pacific,41.1129,85.2401,158,73,3
+Yunnan,China,East Asia & Pacific,24.974,101.487,189,185,2
+Zhejiang,China,East Asia & Pacific,29.1832,120.0934,1270,1267,1
+,Colombia,Latin America & Caribbean,4.5709,-74.2973,218428,101613,7373
+,"Congo, Rep.",Sub-Saharan Africa,-0.228,15.8277,2851,666,50
+,"Congo, Dem. Rep.",Sub-Saharan Africa,-4.0383,21.7587,8626,4790,197
+,Costa Rica,Latin America & Caribbean,9.7489,-83.7534,12361,3322,71
+,Cote d'Ivoire,Sub-Saharan Africa,7.54,-5.5471,14733,8995,93
+,Croatia,Europe & Central Asia,45.1,15.2,4530,3278,125
+,Cuba,Latin America & Caribbean,21.521757,-77.781167,2462,2326,87
+,Cyprus,Europe & Central Asia,35.1264,33.4299,1040,847,19
+,Czech Republic,Europe & Central Asia,49.8175,15.473,14570,9144,364
+Faroe Islands,Denmark,Europe & Central Asia,61.8926,-6.9118,191,188,1
+Greenland,Denmark,Europe & Central Asia,71.7069,-42.6043,13,13,1
+,Denmark,Europe & Central Asia,56.2639,9.5018,13350,12274,611
+,Djibouti,Middle East & North Africa,11.8251,42.5903,5030,4904,58
+,Dominican Republic,Latin America & Caribbean,18.7357,-70.1627,56043,26466,1005
+,Ecuador,Latin America & Caribbean,-1.8312,-78.1834,77257,33125,5418
+,Egypt,Middle East & North Africa,26.820553,30.802498,89745,30075,4440
+,El Salvador,Latin America & Caribbean,13.7942,-88.8965,12975,7119,363
+,Equatorial Guinea,Sub-Saharan Africa,1.6508,10.2679,3071,842,51
+,Eritrea,Sub-Saharan Africa,15.1794,39.7823,251,155,1
+,Estonia,Europe & Central Asia,58.5953,25.0136,2025,1912,69
+,Eswatini,Sub-Saharan Africa,-26.5225,31.4659,1938,876,25
+,Ethiopia,Sub-Saharan Africa,9.145,40.4897,11524,5506,188
+,Fiji,East Asia & Pacific,-17.7134,178.065,27,18,1
+,Finland,Europe & Central Asia,61.92411,25.748151,7362,6920,328
+French Guiana,France,Europe & Central Asia,3.9339,-53.1258,6883,5277,39
+French Polynesia,France,Europe & Central Asia,-17.6797,149.4068,62,60,1
+Guadeloupe,France,Europe & Central Asia,16.265,-61.551,195,172,14
+Mayotte,France,Europe & Central Asia,-12.8275,45.166244,2839,2614,38
+New Caledonia,France,Europe & Central Asia,-20.904305,165.618042,22,21,1
+Reunion,France,Europe & Central Asia,-21.1151,55.5364,645,558,3
+Saint Barthelemy,France,Europe & Central Asia,17.9,-62.8333,6,6,1
+St Martin,France,Europe & Central Asia,18.0708,-63.0501,46,39,3
+Martinique,France,Europe & Central Asia,14.6415,-61.0242,262,98,15
+,France,Europe & Central Asia,46.2276,2.2137,204641,71238,30063
+,Gabon,Sub-Saharan Africa,-0.8037,11.6094,6588,4235,47
+,Gambia,Sub-Saharan Africa,13.4432,-15.3101,146,57,5
+,Georgia,Europe & Central Asia,42.3154,43.3569,1073,907,16
+,Germany,Europe & Central Asia,51.165691,10.451526,204276,188628,9102
+,Ghana,Sub-Saharan Africa,7.9465,-1.0232,29672,26090,153
+,Greece,Europe & Central Asia,39.0742,21.8243,4077,1374,200
+,Guatemala,Latin America & Caribbean,15.7835,-90.2308,41135,27756,1573
+,Guinea,Sub-Saharan Africa,9.9456,-9.6966,6747,5891,41
+,Guyana,Latin America & Caribbean,4.860416,-58.93018,350,165,19
+,Haiti,Latin America & Caribbean,18.9712,-72.2852,7167,4095,154
+,Honduras,Latin America & Caribbean,15.2,-86.2419,36102,4315,1006
+,Hungary,Europe & Central Asia,47.1625,19.5033,4366,3283,596
+,Iceland,Europe & Central Asia,64.9631,-19.0208,1840,1822,10
+,India,South Asia,20.593684,78.96288,1238798,782607,29861
+,Indonesia,East Asia & Pacific,-0.7893,113.9213,91751,50255,4459
+,Iran,Middle East & North Africa,32.427908,53.688046,281413,244840,14853
+,Iraq,Middle East & North Africa,33.223191,43.679291,99865,67147,4042
+,Ireland,Europe & Central Asia,53.1424,-7.6921,25819,23364,1754
+,Israel,Middle East & North Africa,31.046051,34.851612,56085,23310,430
+,Italy,Europe & Central Asia,41.87194,12.56738,245032,197628,35082
+,Jamaica,Latin America & Caribbean,18.1096,-77.2975,816,710,10
+,Japan,East Asia & Pacific,36.204824,138.252924,27136,20482,990
+,Jordan,Middle East & North Africa,31.24,36.51,1120,1035,11
+,Kazakhstan,Europe & Central Asia,48.0196,66.9237,75153,46790,585
+,Kenya,Sub-Saharan Africa,-0.0236,37.9062,14805,6757,260
+,South Korea,East Asia & Pacific,35.907757,127.766922,13938,12758,297
+,Kuwait,Middle East & North Africa,29.31166,47.481766,61185,51520,417
+,Kyrgyzstan,Europe & Central Asia,41.20438,74.766098,28980,15536,1111
+,Latvia,Europe & Central Asia,56.8796,24.6032,1197,1045,31
+,Lebanon,Middle East & North Africa,33.8547,35.8623,3104,1607,43
+,Liberia,Sub-Saharan Africa,6.428055,-9.429499,1114,592,70
+,Liechtenstein,Europe & Central Asia,47.14,9.55,86,81,1
+,Lithuania,Europe & Central Asia,55.1694,23.8813,1951,1607,80
+,Luxembourg,Europe & Central Asia,49.8153,6.1296,5854,4530,111
+,Madagascar,Sub-Saharan Africa,-18.766947,46.869107,8162,4662,69
+,Malaysia,East Asia & Pacific,4.210484,101.975766,8831,8566,123
+,Maldives,South Asia,3.2028,73.2207,3103,2397,15
+,Malta,Middle East & North Africa,35.9375,14.3754,679,665,9
+,Mauritania,Sub-Saharan Africa,21.0079,-10.9408,6027,3977,155
+,Mauritius,Sub-Saharan Africa,-20.348404,57.552152,343,332,10
+,Mexico,Latin America & Caribbean,23.6345,-102.5528,362274,270147,41190
+,Moldova,Europe & Central Asia,47.4116,28.3699,21798,14856,712
+,Monaco,Europe & Central Asia,43.7333,7.4167,112,100,4
+,Mongolia,East Asia & Pacific,46.8625,103.8467,287,214,1
+,Montenegro,Europe & Central Asia,42.708678,19.37439,2472,426,39
+,Morocco,Middle East & North Africa,31.7917,-7.0926,17962,15636,285
+,Mozambique,Sub-Saharan Africa,-18.6657,35.5296,1,523,1
+,Namibia,Sub-Saharan Africa,-22.9576,18.4904,1402,64,7
+,Nepal,South Asia,28.1667,84.25,18094,12684,42
+Aruba,Netherlands,Europe & Central Asia,12.5211,-69.9683,117,100,3
+Curacao,Netherlands,Europe & Central Asia,12.1696,-68.99,28,24,1
+Sint Maarten,Netherlands,Europe & Central Asia,18.0425,-63.0548,79,63,15
+,Netherlands,Europe & Central Asia,52.1326,5.2913,52241,1,6139
+,New Zealand,East Asia & Pacific,-40.9006,174.886,1555,1511,22
+,Nicaragua,Latin America & Caribbean,12.865416,-85.207229,3439,2492,108
+,Niger,Sub-Saharan Africa,17.607789,8.081666,1122,1018,69
+,Nigeria,Sub-Saharan Africa,9.082,8.6753,38344,15815,813
+,North Macedonia,Europe & Central Asia,41.6086,21.7453,9547,5071,442
+,Norway,Europe & Central Asia,60.472,8.4689,9059,8138,255
+,Oman,Middle East & North Africa,21.512583,55.923255,71547,47922,349
+,Pakistan,South Asia,30.3753,69.3451,269191,213175,5709
+,Panama,Latin America & Caribbean,8.538,-80.7821,55906,31122,1180
+,Papua New Guinea,East Asia & Pacific,-6.314993,143.95555,30,8,1
+,Paraguay,Latin America & Caribbean,-23.4425,-58.4438,4000,2391,36
+,Peru,Latin America & Caribbean,-9.19,-75.0152,366550,252246,13767
+,Philippines,East Asia & Pacific,12.879721,121.774017,72269,23623,1843
+,Poland,Europe & Central Asia,51.9194,19.1451,41162,31139,1642
+,Portugal,Europe & Central Asia,39.3999,-8.2245,49150,33999,1702
+,Qatar,Middle East & North Africa,25.3548,51.1839,107871,104641,163
+,Romania,Europe & Central Asia,45.9432,24.9668,40163,24663,2101
+,Russia,Europe & Central Asia,61.52401,105.318756,787890,571049,12726
+,Rwanda,Sub-Saharan Africa,-1.9403,29.8739,1689,867,5
+,San Marino,Europe & Central Asia,43.9424,12.4578,699,656,42
+,Saudi Arabia,Middle East & North Africa,23.885942,45.079162,258156,210398,2601
+,Senegal,Sub-Saharan Africa,14.4974,-14.4524,9121,6108,177
+,Serbia,Europe & Central Asia,44.0165,21.0059,22031,1,499
+,Seychelles,Sub-Saharan Africa,-4.6796,55.492,108,27,1
+,Singapore,East Asia & Pacific,1.2833,103.8333,48744,44795,27
+,Slovakia,Europe & Central Asia,48.669,19.699,2058,1556,28
+,Slovenia,Europe & Central Asia,46.1512,14.9955,2006,1648,115
+,Somalia,Sub-Saharan Africa,5.152149,46.199616,3161,1495,93
+,South Africa,Sub-Saharan Africa,-30.5595,22.9375,394948,229175,5940
+,Spain,Europe & Central Asia,40.463667,-3.74922,267551,150376,28426
+,Sri Lanka,South Asia,7.873054,80.771797,2752,2064,11
+,Sudan,Sub-Saharan Africa,12.8628,30.2176,11237,5835,708
+,Suriname,Latin America & Caribbean,3.9193,-56.0278,1176,739,21
+,Sweden,Europe & Central Asia,60.128161,18.643501,78504,1,5667
+,Switzerland,Europe & Central Asia,46.8182,8.2275,33883,30500,1972
+,Tanzania,Sub-Saharan Africa,-6.369028,34.888822,509,183,21
+,Thailand,East Asia & Pacific,15.870032,100.992541,3261,3105,58
+,Timor-Leste,East Asia & Pacific,-8.8742,125.7275,1,24,1
+,Togo,Sub-Saharan Africa,8.6195,0.8248,806,578,16
+,Trinidad and Tobago,Latin America & Caribbean,10.6918,-61.2225,141,127,8
+,Tunisia,Middle East & North Africa,33.886917,9.537499,1394,1108,50
+,Turkey,Europe & Central Asia,38.9637,35.2433,222402,205214,5545
+,Uganda,Sub-Saharan Africa,1.373333,32.290275,1075,958,1
+,Ukraine,Europe & Central Asia,48.3794,31.1656,62295,34176,1553
+,United Arab Emirates,Middle East & North Africa,23.424076,53.847818,57734,50354,342
+Bermuda,United Kingdom,Europe & Central Asia,32.3078,-64.7505,153,139,9
+Cayman Islands,United Kingdom,Europe & Central Asia,19.3133,-81.2546,203,201,1
+Channel Islands,United Kingdom,Europe & Central Asia,49.3723,-2.3644,583,529,47
+Gibraltar,United Kingdom,Europe & Central Asia,36.1408,-5.3536,182,180,1
+Isle of Man,United Kingdom,Europe & Central Asia,54.2361,-4.5481,336,312,24
+Montserrat,United Kingdom,Europe & Central Asia,16.742498,-62.187366,12,10,1
+,United Kingdom,Europe & Central Asia,55.3781,-3.436,296377,1,45501
+,Uruguay,Latin America & Caribbean,-32.5228,-55.7658,1117,934,34
+,United States,North America,40,-100,3970085,1210849,143190
+,Uzbekistan,Europe & Central Asia,41.377491,64.585262,18379,9872,98
+,Venezuela,Latin America & Caribbean,6.4238,-66.5897,13164,7471,124
+,Vietnam,East Asia & Pacific,14.058324,108.277199,408,365,1
+,Zambia,Sub-Saharan Africa,-13.133897,27.849332,3583,1677,128
+,Zimbabwe,Sub-Saharan Africa,-19.015438,29.154857,2034,510,26
+Diamond Princess,Canada,North America,0,0,1,651,1
+,Dominica,Latin America & Caribbean,15.415,-61.371,18,18,1
+,Grenada,Latin America & Caribbean,12.1165,-61.679,23,23,1
+,Mozambique,Sub-Saharan Africa,-18.665695,35.529562,1557,1,11
+,Syria,Middle East & North Africa,34.802075,38.996815,561,165,32
+,Timor-Leste,East Asia & Pacific,-8.874217,125.727539,24,1,1
+,Belize,Latin America & Caribbean,17.1899,-88.4976,43,23,2
+,Laos,East Asia & Pacific,19.85627,102.495496,19,19,1
+,Libya,Middle East & North Africa,26.3351,17.228331,2176,489,53
+,West Bank and Gaza,Middle East & North Africa,31.9522,35.2332,9398,1950,66
+,Guinea-Bissau,Sub-Saharan Africa,11.8037,-15.1804,1954,803,26
+,Mali,Sub-Saharan Africa,17.570692,-3.996166,2494,1869,123
+Northwest Territories,Canada,North America,64.8255,-124.8457,5,1,1
+Yukon,Canada,North America,64.2823,-135,13,1,1
+,Kosovo,Europe & Central Asia,42.602636,20.902977,6286,3369,150
+,Myanmar,East Asia & Pacific,21.9162,95.956,343,280,6
+Anguilla,United Kingdom,Europe & Central Asia,18.2206,-63.0686,3,3,1
+British Virgin Islands,United Kingdom,Europe & Central Asia,18.4207,-64.64,8,7,1
+Turks and Caicos Islands,United Kingdom,Europe & Central Asia,21.694,-71.7979,82,22,2
+,Botswana,Sub-Saharan Africa,-22.3285,24.6849,522,48,1
+,Burundi,Sub-Saharan Africa,-3.3731,29.9189,328,207,1
+,Sierra Leone,Sub-Saharan Africa,8.460555,-11.779889,1731,1288,66
+"Bonaire, Sint Eustatius and Saba",Netherlands,Europe & Central Asia,12.1784,-68.2385,10,7,1
+,Malawi,Sub-Saharan Africa,-13.2543,34.3015,3302,1282,76
+Falkland Islands (Malvinas),United Kingdom,Europe & Central Asia,-51.7963,-59.5236,13,13,1
+Saint Pierre and Miquelon,France,Europe & Central Asia,46.8852,-56.3159,4,1,1
+,South Sudan,Sub-Saharan Africa,6.877,31.307,2211,1175,45
+,Sao Tome and Principe,Sub-Saharan Africa,0.1864,6.6131,747,601,14
+,Yemen,Middle East & North Africa,15.552727,48.516388,1640,751,458
+,Comoros,Sub-Saharan Africa,-11.6455,43.3333,337,319,7
+,Tajikistan,Europe & Central Asia,38.861,71.2761,7015,5741,58
+,Lesotho,Sub-Saharan Africa,-29.61,28.2336,359,69,6
