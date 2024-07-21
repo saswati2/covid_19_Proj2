@@ -1,0 +1,127 @@
+body {
+	margin: 0px;
+  overflow: hidden;
+}
+
+rect {
+	fill: steelblue;
+}
+
+.rect-tooltip{
+	fill: steelblue;
+}
+.line-path {
+	fill: none;
+	stroke-width: 5;
+	stroke-linejoin: round;
+	stroke-linejoin: round;
+	mix-blend-mode: multiply;
+}
+.line-pathIndia {
+	fill: none;
+	/*stroke: steelblue;*/
+	stroke-width: 5;
+	stroke-linejoin: round;
+	stroke-linejoin: round;
+	mix-blend-mode: multiply;
+}
+
+.line-pathUS {
+	fill: none;
+	stroke-width: 5;
+	stroke-linejoin: round;
+	stroke-linejoin: round;
+	mix-blend-mode: multiply;
+}
+
+.line-pathBrazil {
+	fill: none;
+	stroke-width: 5;
+	stroke-linejoin: round;
+	stroke-linejoin: round;
+	mix-blend-mode: multiply;
+}
+
+.line-pathSA {
+	fill: none;
+	stroke-width: 5;
+	stroke-linejoin: round;
+	stroke-linejoin: round;
+	mix-blend-mode: multiply;
+}
+
+.line-pathRussia {
+	fill: none;
+	stroke-width: 5;
+	stroke-linejoin: round;
+	stroke-linejoin: round;
+	mix-blend-mode: multiply;
+}
+
+text {
+  font-family: sans-serif;
+}
+
+.annotation-text {
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+
+/*affordance that these are clickable*/
+
+.tick-selection {
+	cursor: pointer;
+}
+
+.tick-selection text{
+	fill: #0f0e0e;
+	font-size: 1.4em;
+}
+
+.tick-selection circle{
+	stroke: black;
+	stroke-opacity: 0.5;
+}
+.tick-selection line{
+	stroke: #C0C0BB;
+}
+
+.tick text{
+	fill: #635F5D;
+	font-size: 1.4em;
+}
+
+.tick circle{
+	stroke: black;
+	stroke-opacity: 0.5;
+}
+.tick line{
+	stroke: #d6d6d2;
+}
+
+.axis-label{
+	fill: #8E8883;
+	font-size: 3em;
+}
+
+.title{
+	fill: #635F5D;
+	font-size: 1.9em;
+    align-content: center;
+}
+
+.parameter{
+	fill: #635F5D;
+	font-size: 1.9em;
+    align-content: center;
+}
+
+#menus select{
+	font-size: 1.5em;
+}
+
+#menus select option{
+	font-size: 1rem;
+}
+
+
