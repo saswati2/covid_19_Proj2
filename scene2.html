@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head xmlns:svg="http://www.w3.org/2000/svg">
+  <title>CS498-FinalProject-Rasbihari Pal</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/html.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+
+  <ul class="horizontal gray">
+    <li><a href="index.html">Home</a></li>
+    <li><a class="active" href="scene2.html">Confirmed Cases</a></li>
+    <li><a href="scene3.html">Deaths</a></li>
+    <li><a href="final.html">Final</a></li>
+    <li class="rightli" style="float:right"><a href="about.html">About</a></li>
+  </ul>
+  <div class="container">
+    <div class="container">
+      <div class="page-header">
+        <h1>Covid-19(Till 07/22/2020)</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="lead">Though the first case of Covid-19 was reported back in 2019, it has started impacted from mid
+        March, 2020 around the world. Today <mark>US</mark>, <mark>Brazil</mark>, <mark>India</mark>,
+        <mark>Russia</mark> and <mark>South Africa</mark> have most number of confirmed cases.
+      </p>
+      <p class="lead">This line graph helps to find out the pattern of growing number of Covid 19 confirmed cases for
+        those 5 countries
+      </p>
+      <p class="lead">It has five lines one for each country. Color legends are added for visual affordance. The graphs
+        load in the page in an animated way. It is clearly visible that US is in 2nd wave and other countries in the top
+        five list are still in fisrt wave. This is marked by annotation as well.
+      </p>
+      <p>
+        <strong>Following observations can be easily inferred:</strong>
+      </p>
+      <p>
+        1. US is in already 2nd wave as the line curve representing the total number
+        of confirmed cases was having flattening trend around mid-May, 2020 and it
+        is again gaining its momentum since mid-June, 2020.
+      </p>
+      <p>
+        2. Brazil, India and South Africa have not reached to its first peak yet as
+        the line curves representing the total number of confirmed cases are
+        showing continuous upward trend with no sign of flattening of the curve.
+      </p>
+      <p>
+        3. The line curve representing total number of confirmed cases for Russia is
+        showing the sign of flattening the curve. It is still in first wave though.
+      </p>
+      <h2 class="text-center">How did the confirmed cases increase for top 5 countries?</h5>
+        <div id="scene2-svg"></div>
+    </div>
+
+    <div class="container">
+      <a href="scene3.html">
+        <button type="button" class="button-next">
+          Next
+        </button>
+      </a>
+      <a href="index.html">
+        <button type="button" class="button-previous">
+          Previous
+        </button>
+      </a>
+    </div>
+
+  </div>
+  <script src="lib/scene2.js">
+  </script>
+</body>
+
+</html>

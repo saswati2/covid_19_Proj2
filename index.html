@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head xmlns:svg="http://www.w3.org/2000/svg">
+  <title>CS498-FinalProject-Rasbihari Pal</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/html.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+
+  <ul class="horizontal gray">
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="scene2.html">Confirmed Cases</a></li>
+    <li><a href="scene3.html">Deaths</a></li>
+    <li><a href="final.html">Final</a></li>
+    <li class="rightli" style="float:right"><a href="about.html">About</a></li>
+  </ul>
+  <div class="container">
+    <div class="container">
+      <div class="page-header">
+        <h1>Covid-19(Till 07/22/2020)</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="alert-note" role="alert">
+        <button type="button" class="button-alert">
+          <strong><br> Tooltips are available. Use your mouse to hover over any circle on the line chart to see its
+            tooltip.
+          </strong>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <p class="lead">On 31 December 2019, the first reported case in the COVID-19 outbreak was reported in Wuhan,
+        China. The first case outside of China was reported in Thailand on 13 January 2020. Since then, this ongoing
+        outbreak has now spread to all over the world.
+      </p>
+      <p class="lead">This Data visualization project is created to analyze the data available publicly to study the
+        pattern of total number of confirmed cases and death toll for top 5 infected countries and then later on
+        provides the opportunity to drill down the data (as of <u>07/22/2020</u>) further through user interaction.
+      </p>
+      <p class="lead">This first page provides the pictorial representation of total number of confirmed cases for top
+        50 infected countries.
+      </p>
+      <h2 class="text-center">Top 50 infected countries (as on <u>07/22/2020</u>) </h5>
+        <div id="index-svg"></div>
+    </div>
+
+    <div class="container">
+      <a href="scene2.html">
+        <button type="button" class="button-next">
+          Next
+        </button>
+      </a>
+    </div>
+
+  </div>
+  <script src="lib/index.js">
+  </script>
+  <script>
+    window.setTimeout(function () {
+      d3.select(".alert-note").remove();
+    }, 5000);
+  </script>
+</body>
+
+</html>

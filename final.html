@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head xmlns:svg="http://www.w3.org/2000/svg">
+  <title>CS498-FinalProject-Rasbihari Pal</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/html.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+
+  <ul class="horizontal gray">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="scene2.html">Confirmed Cases</a></li>
+    <li><a href="scene3.html">Deaths</a></li>
+    <li><a class="active" href="final.html">Final</a></li>
+    <li class="rightli" style="float:right"><a href="about.html">About</a></li>
+  </ul>
+  <div class="container">
+    <div class="container">
+      <div class="page-header">
+        <h1>Covid-19(Till 07/22/2020)</h1>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="alert-note" role="alert">
+        <button type="button" class="button-alert">
+          <strong><br> 1.Tooltips are available. Use your mouse to hover over any circle on the line chart to see its
+            tooltip.
+            <br>
+            <br> 2. Select any region to see the data for the countries in that region.
+          </strong>
+        </button>
+      </div>
+    </div>
+    <p class="lead">This scatter plot provides the opportunity to drill down the data (as of <u>07/22/2020</u>) further
+      through user interaction. It provides the user a chance for the user to explore the correlation between Total
+      number of confirmed cases, recovered cases, deaths and Population, Income, Region of the countries.
+    </p>
+    <p class="lead">Menu and selection parameter is provided to access the impact on each country. The transition
+      happens in an animated way.
+    </p>
+    <p class="lead">Tooltip is provided to display further details for each plotting.
+    </p>
+    <h2 class="text-center">Exploring the Impact of Covid-19 around the world</h5>
+      <div id="menus"></div>
+      <div id="final-svg"></div>
+  </div>
+
+  <div class="container">
+    <a href="scene3.html">
+      <button type="button" class="button-previous">
+        Previous
+      </button></a>
+    <a href="index.html">
+      <button type="button" class="button-next">
+        Home
+      </button>
+    </a>
+  </div>
+
+  </div>
+  <script src="lib/final.js">
+  </script>
+  <script>
+    window.setTimeout(function () {
+      d3.select(".alert-note").remove();
+    }, 5000);
+  </script>
+</body>
+
+</html>

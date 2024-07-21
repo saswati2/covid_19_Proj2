@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head xmlns:svg="http://www.w3.org/2000/svg">
+  <title>CS498-FinalProject-Rasbihari Pal</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/html.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+
+  <ul class="horizontal gray">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="scene2.html">Confirmed Cases</a></li>
+    <li><a class="active" href="scene3.html">Deaths</a></li>
+    <li><a href="final.html">Final</a></li>
+    <li class="rightli" style="float:right"><a href="about.html">About</a></li>
+  </ul>
+  <div class="container">
+    <div class="container">
+      <div class="page-header">
+        <h1>Covid-19(Till 07/22/2020)</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="lead">While number of confirmed cases are growing, the death toll is also increasing day by day.
+      </p>
+      <p class="lead">This line graph helps to find out the pattern of growing number of Covid 19 deaths for <mark>US</mark>, <mark>Brazil</mark>, <mark>India</mark>, <mark>Russia</mark> and <mark>South Africa</mark> which have most number of confirmed cases.
+      </p>
+      <p class="lead">It has five lines one for each country. Color legends are added for visual affordance. This uses same annotation style from previous page is used.
+      </p>
+      <p>
+        <strong>Following observations can be easily inferred:</strong>
+      </p>
+      <p>
+        1. Second Wave of Deaths has been started in US around mid-June 2020
+      </p>
+      <p>
+        2. Countries (Brazil, India and South Africa) which are in first wave in terms of total number of confirmed cases (as depicted in scene 2), are in first wave in terms of total number of Death as well. Russia has shown the sign of flattening the curve for the first wave in terms of total number of deaths.
+      </p>
+      <p>
+        3. The line curve representing total number of confirmed cases for Russia is
+        showing the sign of flattening the curve. It is still in first wave though.
+      </p>
+      <h2 class="text-center">How are the death toll increasing for those five countries ?</h5>
+      <div id="scene3-svg"></div>
+    </div>
+
+    <div class="container">
+      <a href="final.html">
+        <button type="button" class="button-next">
+          Next
+        </button></a>
+      <a href="scene2.html">
+        <button type="button" class="button-previous">
+          Previous
+        </button></a>
+     </div>
+
+  </div>
+  <script src="lib/scene3.js">
+  </script>
+</body>
+
+</html>
