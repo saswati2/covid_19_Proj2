@@ -44,7 +44,14 @@
       <p class="lead">This first page provides the pictorial representation of total number of confirmed cases for top
         50 infected countries.
       </p>
-      <h2 class="text-center">Top 50 infected countries (as on <u>07/22/2020</u>) </h5>
+      <h2 class="text-center">Top 50 infected countries </h5>
+        <div>
+         <label for="metric-select">Select Metric:</label>
+         <select id="metric-select">
+         <option value="cases">Total Cases</option>
+         <option value="deaths">Total Deaths</option>
+         </select>
+        </div>
         <div id="index-svg"></div>
     </div>
 
