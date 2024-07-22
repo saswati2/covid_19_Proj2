@@ -44,15 +44,15 @@
       <p class="lead">This first page provides the pictorial representation of total number of confirmed cases for top
         50 infected countries.
       </p>
-      <h2 class="text-center">Top 50 infected countries </h5>
-        <div>
-         <label for="metric-select">Select Metric:</label>
-         <select id="metric-select">
-         <option value="cases">Total Cases</option>
-         <option value="deaths">Total Deaths</option>
-         </select>
-        </div>
-        <div id="index-svg"></div>
+      <h2 class="text-center">Top 50 infected countries</h5>
+      <div>
+        <label for="metric-select">Select Metric:</label>
+        <select id="metric-select">
+          <option value="cases">Total Cases</option>
+          <option value="deaths">Total Deaths</option>
+        </select>
+      </div>
+      <div id="index-svg"></div>
     </div>
 
     <div class="container">
@@ -64,8 +64,7 @@
     </div>
 
   </div>
-  <script src="lib/index.js">
-  </script>
+  <script src="scene2.js"></script>
   <script>
     window.setTimeout(function () {
       d3.select(".alert-note").remove();
