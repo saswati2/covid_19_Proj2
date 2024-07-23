@@ -94,13 +94,14 @@
         .enter().append("path")
         .attr("d", path)
         .attr("fill", d => {
-          const country = d.properties.name;
+          const country = d.properties ? d.properties.name : null;
+          if (!country) return "#ccc";
           return data[country] ? colorScale(data[country].confirmed) : "#ccc";
         })
         .on("mouseover", function(event, d) {
-          const country = d.properties.name;
-          const info = data[country];
-          if (info) {
+          const country = d.properties ? d.properties.name : null;
+          if (country && data[country]) {
+            const info = data[country];
             tooltip.transition().duration(200).style("opacity", .9);
             tooltip.html(`${country}<br>Confirmed: ${info.confirmed}<br>Deaths: ${info.deaths}`)
               .style("left", (event.pageX + 5) + "px")
