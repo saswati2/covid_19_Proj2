@@ -42,8 +42,8 @@
     // Load data files
     Promise.all([
       d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-      d3.csv("/data/time_series_covid19_deaths_global_latest.csv"),
-      d3.csv("/data/time_series_covid19_confirmed_global_latest.csv")
+      d3.csv("data/time_series_covid19_deaths_global_latest.csv"),
+      d3.csv("data/time_series_covid19_confirmed_global_latest.csv")
     ]).then(function([world, deaths, confirmed]) {
 
       // Process deaths data
