@@ -39,6 +39,14 @@
       .attr("class", "tooltip")
       .style("opacity", 0);
 
+    // Function to map country names if necessary
+    const countryNameMapping = {
+      "United States": "US",
+      // Add other mappings if necessary
+    };
+
+    const getCountryName = name => countryNameMapping[name] || name;
+
     // Load data files
     Promise.all([
       d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
@@ -53,7 +61,7 @@
       // Process deaths data
       const deathsData = {};
       deaths.forEach(d => {
-        const country = d["Country/Region"];
+        const country = getCountryName(d["Country/Region"]);
         const latestDeaths = +d[Object.keys(d).pop()]; // Access the last column dynamically
         if (deathsData[country]) {
           deathsData[country] += latestDeaths;
@@ -65,7 +73,7 @@
       // Process confirmed cases data
       const confirmedData = {};
       confirmed.forEach(d => {
-        const country = d["Country/Region"];
+        const country = getCountryName(d["Country/Region"]);
         const latestConfirmed = +d[Object.keys(d).pop()]; // Access the last column dynamically
         if (confirmedData[country]) {
           confirmedData[country] += latestConfirmed;
@@ -94,12 +102,12 @@
         .enter().append("path")
         .attr("d", path)
         .attr("fill", d => {
-          const country = d.properties ? d.properties.name : null;
+          const country = getCountryName(d.properties ? d.properties.name : null);
           if (!country) return "#ccc";
           return data[country] ? colorScale(data[country].confirmed) : "#ccc";
         })
         .on("mouseover", function(event, d) {
-          const country = d.properties ? d.properties.name : null;
+          const country = getCountryName(d.properties ? d.properties.name : null);
           if (country && data[country]) {
             const info = data[country];
             tooltip.transition().duration(200).style("opacity", .9);
