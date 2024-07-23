@@ -23,13 +23,19 @@
         <h1>Covid-19 Case Study</h1>
       </div>
     </div>
-   
+    <div class="container">
+      <div class="alert-note" role="alert">
+        <button type="button" class="button-alert">
+          <strong><br> Tooltips are available. Use your mouse to hover over any circle on the line chart to see its
+            tooltip.
+          </strong>
+        </button>
+      </div>
+    </div>
     <div class="container">
       <p class="lead">On 31 December 2019, the first reported case in the COVID-19 outbreak was reported in Wuhan,
         China. The first case outside of China was reported in Thailand on 13 January 2020. Since then, this ongoing
-        outbreak has now spread to all over the world. SARS-CoV-2, the virus that causes COVID-19, is that it is changing 
-        constantly. Since the beginning of the pandemic, we’ve seen a number of waves 
-        
+        outbreak has now spread to all over the world.
       </p>
       <p class="lead">This Data visualization project is created to analyze the data available publicly to study the
         pattern of total number of confirmed cases and death toll for top 5 infected countries and then later on
@@ -59,7 +65,11 @@
 
   </div>
   <script src="lib/index.js">
-  
+  <script>
+    window.setTimeout(function () {
+      d3.select(".alert-note").remove();
+    }, 5000);
+  </script>
 </body>
 
 </html>
