@@ -16,6 +16,11 @@
       border: 0px;
       border-radius: 8px;
       pointer-events: none;
+      opacity: 0;
+    }
+    .highlight {
+      stroke: #000;
+      stroke-width: 1px;
     }
   </style>
 </head>
@@ -36,8 +41,7 @@
       .projection(projection);
 
     const tooltip = d3.select("body").append("div")
-      .attr("class", "tooltip")
-      .style("opacity", 0);
+      .attr("class", "tooltip");
 
     // Function to map country names if necessary
     const countryNameMapping = {
@@ -54,15 +58,11 @@
       d3.csv("data/time_series_covid19_confirmed_global_latest.csv")
     ]).then(function([world, deaths, confirmed]) {
 
-      // Log the data for debugging
-      console.log('Deaths Data:', deaths);
-      console.log('Confirmed Data:', confirmed);
-
       // Process deaths data
       const deathsData = {};
       deaths.forEach(d => {
         const country = getCountryName(d["Country/Region"]);
-        const latestDeaths = +d[Object.keys(d).pop()]; // Access the last column dynamically
+        const latestDeaths = +d[Object.keys(d).pop()];
         if (deathsData[country]) {
           deathsData[country] += latestDeaths;
         } else {
@@ -74,7 +74,7 @@
       const confirmedData = {};
       confirmed.forEach(d => {
         const country = getCountryName(d["Country/Region"]);
-        const latestConfirmed = +d[Object.keys(d).pop()]; // Access the last column dynamically
+        const latestConfirmed = +d[Object.keys(d).pop()];
         if (confirmedData[country]) {
           confirmedData[country] += latestConfirmed;
         } else {
@@ -106,6 +106,7 @@
           if (!country) return "#ccc";
           return data[country] ? colorScale(data[country].confirmed) : "#ccc";
         })
+        .attr("class", "country")
         .on("mouseover", function(event, d) {
           const country = getCountryName(d.properties ? d.properties.name : null);
           if (country && data[country]) {
@@ -128,6 +129,12 @@
               .style("left", (event.pageX + 5) + "px")
               .style("top", (event.pageY - 28) + "px");
           }
+          // Highlight clicked country
+          svg.selectAll("path")
+            .attr("class", d => {
+              const currentCountry = getCountryName(d.properties ? d.properties.name : null);
+              return currentCountry === country ? "country highlight" : "country";
+            });
         });
 
     }).catch(function(error) {
