@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>COVID-19 World Map for Total number of Cases</title>
+  <title>COVID-19 World Map</title>
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <style>
     .tooltip {
@@ -63,11 +63,7 @@
       deaths.forEach(d => {
         const country = getCountryName(d["Country/Region"]);
         const latestDeaths = +d[Object.keys(d).pop()];
-        if (deathsData[country]) {
-          deathsData[country] += latestDeaths;
-        } else {
-          deathsData[country] = latestDeaths;
-        }
+        deathsData[country] = (deathsData[country] || 0) + latestDeaths;
       });
 
       // Process confirmed cases data
@@ -75,11 +71,7 @@
       confirmed.forEach(d => {
         const country = getCountryName(d["Country/Region"]);
         const latestConfirmed = +d[Object.keys(d).pop()];
-        if (confirmedData[country]) {
-          confirmedData[country] += latestConfirmed;
-        } else {
-          confirmedData[country] = latestConfirmed;
-        }
+        confirmedData[country] = (confirmedData[country] || 0) + latestConfirmed;
       });
 
       // Merge data into a single object
@@ -103,16 +95,14 @@
         .attr("d", path)
         .attr("fill", d => {
           const country = getCountryName(d.properties ? d.properties.name : null);
-          if (!country) return "#ccc";
           return data[country] ? colorScale(data[country].confirmed) : "#ccc";
         })
         .attr("class", "country")
         .on("mouseover", function(event, d) {
           const country = getCountryName(d.properties ? d.properties.name : null);
           if (country && data[country]) {
-            const info = data[country];
             tooltip.transition().duration(200).style("opacity", .9);
-            tooltip.html(`${country}<br>Confirmed: ${info.confirmed}<br>Deaths: ${info.deaths}`)
+            tooltip.html(`${country}<br>Confirmed: ${data[country].confirmed}<br>Deaths: ${data[country].deaths}`)
               .style("left", (event.pageX + 5) + "px")
               .style("top", (event.pageY - 28) + "px");
           }
@@ -123,18 +113,15 @@
         .on("click", function(event, d) {
           const country = getCountryName(d.properties ? d.properties.name : null);
           if (country && data[country]) {
-            const info = data[country];
             tooltip.transition().duration(200).style("opacity", .9);
-            tooltip.html(`${country}<br>Confirmed: ${info.confirmed}<br>Deaths: ${info.deaths}`)
+            tooltip.html(`${country}<br>Confirmed: ${data[country].confirmed}<br>Deaths: ${data[country].deaths}`)
               .style("left", (event.pageX + 5) + "px")
               .style("top", (event.pageY - 28) + "px");
+
+            // Highlight the clicked country
+            svg.selectAll("path")
+              .attr("class", d => getCountryName(d.properties ? d.properties.name : null) === country ? "country highlight" : "country");
           }
-          // Highlight clicked country
-          svg.selectAll("path")
-            .attr("class", d => {
-              const currentCountry = getCountryName(d.properties ? d.properties.name : null);
-              return currentCountry === country ? "country highlight" : "country";
-            });
         });
 
     }).catch(function(error) {
