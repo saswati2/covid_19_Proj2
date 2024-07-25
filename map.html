@@ -29,7 +29,7 @@
       .attr("height", height);
 
     const projection = d3.geoMercator()
-      .scale(130)
+      .scale(150)
       .translate([width / 2, height / 1.5]);
 
     const path = d3.geoPath()
@@ -118,6 +118,16 @@
         })
         .on("mouseout", function(d) {
           tooltip.transition().duration(500).style("opacity", 0);
+        })
+        .on("click", function(event, d) {
+          const country = getCountryName(d.properties ? d.properties.name : null);
+          if (country && data[country]) {
+            const info = data[country];
+            tooltip.transition().duration(200).style("opacity", .9);
+            tooltip.html(`${country}<br>Confirmed: ${info.confirmed}<br>Deaths: ${info.deaths}`)
+              .style("left", (event.pageX + 5) + "px")
+              .style("top", (event.pageY - 28) + "px");
+          }
         });
 
     }).catch(function(error) {
