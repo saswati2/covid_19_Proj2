@@ -15,7 +15,7 @@ body {
 
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #006dcc;
+    background-color: #006dcc; 
     color: #FFC0CB;
 }
 
@@ -47,8 +47,8 @@ code {
 
 .button-next {
   position: absolute; 
-  right: 0;
-  background-color: steelblue;
+  right: 0; 
+  background-color: steelblue; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -112,7 +112,7 @@ ul {
 	text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+  
   li a:hover {
 	background-color: #111;
   }
